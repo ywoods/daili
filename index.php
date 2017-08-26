@@ -236,8 +236,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 						break;
                     $content.=$body;
 	 			}
-                $myURI =& new Uri($url);
-                $HtmlParser =& new ParseHtml;
+                $myURI =new Uri($url);
+                $HtmlParser =new ParseHtml;
                 $HtmlParser->tag_attributes=$tag_attributes;
                 $HtmlParser->tag_style=$tag_style;
                 $HtmlParser->Parse($content,$myURI);
@@ -289,8 +289,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 						break;
                     $content.=$body;
 				}
-                $myURI =& new Uri($url);
-                $HtmlParser =& new ParseHtml;
+                $myURI = new Uri($url);
+                $HtmlParser =new ParseHtml;
                 $HtmlParser->tag_attributes=$tag_attributes;
                 $HtmlParser->tag_style=$tag_style;
                 $HtmlParser->Parse($content,$myURI);
