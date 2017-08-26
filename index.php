@@ -63,10 +63,10 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
     $http->exclude_address="";
 
     if($_POST['phpproxy']){
-       if(isset($_SESSION['proxyserver']) unset($_SESSION['proxyserver']);
-       if(isset($_SESSION['proxyport']) unset($_SESSION['proxyport']);
-       if(isset($_SESSION['cookies']) unset($_SESSION['cookies']);
-       if(isset($_SESSION['hide_mini_form']) unset($_SESSION['hide_mini_form']);
+       if(isset($_SESSION['proxyserver'])) unset($_SESSION['proxyserver']);
+       if(isset($_SESSION['proxyport'])) unset($_SESSION['proxyport']);
+       if(isset($_SESSION['cookies'])) unset($_SESSION['cookies']);
+       if(isset($_SESSION['hide_mini_form'])) unset($_SESSION['hide_mini_form']);
     }
     if($_POST[proxyserver]&&$permit_proxy==false){
         die("Do not permit to use proxy!");
